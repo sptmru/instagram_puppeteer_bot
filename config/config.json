@@ -1,0 +1,35 @@
+{
+    "base_url": "https://www.instagram.com",
+    "viewPort": {
+      "width": 1920,
+      "height": 1080
+    },
+    "selectors": {
+      "home_to_login_button": ".izU2O a",
+      "username_field": "input[type=\"text\"]",
+      "password_field": "input[type=\"password\"]",
+      "login_button": "button[type=\"submit\"]",
+      "post_heart_pink": "span.glyphsSpriteHeart__filled__24__red_5",
+      "post_like_button": "span.fr66n > button",
+      "user_follow_button": "span.vBF20 > button.jIbKX",
+      "user_unfollow_button": "span.vBF20 > button.-fzfL",
+      "user_unfollow_confirm_button": "div.mt3GC > button.aOOlW.-Cab_",
+      "not_now_button": ".HoLwm",
+      "unusual_login_button": "span.idhGk > button._5f5mN",
+      "profile_icon": ".XrOey",
+      "incorrect_credentials": ".eiCW-",
+      "error_404": ".dialog-404"
+    },
+    "args": [
+        "--no-sandbox",
+        "--lang=en-US,en",
+        "--disable-setuid-sandbox",
+        "--disable-infobars",
+        "--window-position=0,0",
+        "--ignore-certifcate-errors",
+        "--ignore-certifcate-errors-spki-list",
+        "--user-agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15'"
+    ],
+    "userDataDir": "./tmp",
+    "proxyServer": false
+  }

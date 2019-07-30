@@ -1,0 +1,11 @@
+{
+  "name": "instagram_puppeteer_bot",
+  "version": "1.0.0",
+  "description": "Instagram Bot built with Node.js and Puppeteer",
+  "main": "InstagramBot.js",
+  "scripts": {},
+  "author": "Soslan Aldatov <me@sptm.dev>",
+  "dependencies": {
+    "puppeteer": "^1.18.1"
+  }
+}
